@@ -1,0 +1,75 @@
+/* background */
+
+.header-box {
+  position: relative;
+ 
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  padding-left: 10%;
+  overflow: auto;
+  
+}
+
+.name-box {
+    
+    margin-right: 500px;
+    padding: 0px 20px;
+    float: left;
+    color: white;
+    background: #4aaaa5;
+    overflow: auto;
+
+}
+
+.overbox {
+    overflow: auto;
+}
+.main-box {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    width: 650px;
+    padding-left: 20px;
+    padding-bottom: 5%; 
+    line-height: 150%;  
+    border: 2px solid #cccccc;
+    float: left;
+    overflow: auto;
+}
+
+#about {
+    border-bottom: 2px solid #cccccc;
+    border-block-end-width: 600px;
+    margin-bottom: 10px;
+}
+
+.face {
+    float: left;
+}
+
+.maintxt {
+    padding: 0 30px 30px 25%;
+    
+}
+
+.connect-bar {
+
+    width: 270px;
+    margin-top: 20px; 
+    margin-left: 65%;
+    border: 2px solid #cccccc;
+
+
+}
+
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    height: 40px;
+    padding-top: 30px; 
+    font-size: 12px;
+
+}
