@@ -1,8 +1,10 @@
 /* background */
 
+
+
 .header-box {
   position: relative;
- 
+ margin-top: 0;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
   padding-left: 10%;
@@ -12,17 +14,23 @@
 
 .name-box {
     
-    margin-right: 500px;
-    padding: 0px 20px;
+    margin: 0 400px 0 0;
+    padding: 20px;
     float: left;
     color: white;
     background: #4aaaa5;
     overflow: auto;
-
 }
+
+.nav {
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
 
 .overbox {
     overflow: auto;
+    margin-bottom: 10px;
 }
 .main-box {
     position: relative;
@@ -34,11 +42,27 @@
     padding-bottom: 5%; 
     line-height: 150%;  
     border: 2px solid #cccccc;
+    background: #ffffff;
     float: left;
     overflow: auto;
 }
 
-#about {
+.port-main {
+    width: 400px;
+}
+
+.main-head {
+    color: #4aaaa5;
+    width: 600px;
+    border-bottom: 2px solid #cccccc;
+    border-block-end-width: 600px;
+    margin-bottom: 10px;
+}
+
+#port-head {
+    color: #4aaaa5;
+    width: 300px;
+    padding-bottom: 5px;
     border-bottom: 2px solid #cccccc;
     border-block-end-width: 600px;
     margin-bottom: 10px;
@@ -54,22 +78,27 @@
 }
 
 .connect-bar {
-
+    color: #4aaaa5;
+    text-align: center;
     width: 270px;
     margin-top: 20px; 
     margin-left: 65%;
     border: 2px solid #cccccc;
-
+    background: #ffffff;
 
 }
 
 
-.footer{
+.footer {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #4aaaa5;
     text-align: center;
     color: white;
     background-color: #666666;
     height: 40px;
     padding-top: 30px; 
     font-size: 12px;
+    
 
 }
