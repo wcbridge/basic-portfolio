@@ -1,5 +1,8 @@
 /* background */
 
+body {
+    background-image: url("../images/spiration-light.png");
+}
 
 
 .header-box {
@@ -9,11 +12,12 @@
   border-bottom: 2px solid #cccccc;
   padding-left: 10%;
   overflow: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
 
 .name-box {
-    
+    position: relative;
     margin: 0 400px 0 0;
     padding: 20px;
     float: left;
@@ -22,17 +26,20 @@
     overflow: auto;
 }
 
-.nav {
+.nav { position: relative;
     margin: 20px 0px 0px 0px;
     float: left;
 }
 
 
 .overbox {
+    position: relative;
     overflow: auto;
     margin-bottom: 10px;
 }
 .main-box {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -40,18 +47,31 @@
     width: 650px;
     padding-left: 20px;
     padding-bottom: 5%; 
-    line-height: 150%;  
+    line-height: 200%;  
     border: 2px solid #cccccc;
     background: #ffffff;
     float: left;
     overflow: auto;
 }
 
-.port-main {
-    width: 400px;
+.maintxt {
+    position: relative;
+   
+    
 }
 
+.face {
+    position: relative;
+    height: 250px;
+    width: auto;
+    float: left;
+    margin-right: 30px; 
+}
+
+
+
 .main-head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     width: 600px;
     border-bottom: 2px solid #cccccc;
@@ -59,28 +79,35 @@
     margin-bottom: 10px;
 }
 
-#port-head {
-    color: #4aaaa5;
-    width: 300px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #cccccc;
-    border-block-end-width: 600px;
-    margin-bottom: 10px;
-}
 
-.face {
+
+/*for portfolio pg*/
+
+.text {
+
+    overflow: auto;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+    background-image:url(http://lorempixel.com/150/150);
     float: left;
 }
 
-.maintxt {
-    padding: 0 30px 30px 25%;
-    
+
+#word {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4aaaa5;
 }
 
-.connect-bar {
+
+.linkbox {
+    
     color: #4aaaa5;
     text-align: center;
     width: 270px;
+    height: 20%;
     margin-top: 20px; 
     margin-left: 65%;
     border: 2px solid #cccccc;
@@ -88,17 +115,31 @@
 
 }
 
+.connect-bar {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    width: 200px;
+
+}
+
+.img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin: 20px 10px;
+}
+
 
 .footer {
     position: absolute;
     width: 100%;
-    border-top: 4px solid #4aaaa5;
+    border-top: 10px solid #4aaaa5;
     text-align: center;
     color: white;
     background-color: #666666;
     height: 40px;
     padding-top: 30px; 
     font-size: 12px;
-    
-
+    margin-bottom: 0px;
 }
